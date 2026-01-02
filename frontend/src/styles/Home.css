@@ -1,0 +1,154 @@
+
+.home-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 3rem;
+}
+
+
+.new-releases-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.new-releases-text {
+  flex: 1;
+  max-width: 520px;
+}
+
+.new-releases-text h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.new-releases-text p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 0.98rem;
+}
+
+
+.new-releases-books {
+  flex-shrink: 0;
+  position: relative;
+  width: 260px;
+  height: 340px;
+}
+
+.book-stack {
+  position: absolute;
+  width: 180px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.book-back {
+  left: 0;
+  top: 40px;
+  transform: rotate(-8deg);
+  opacity: 0.8;
+}
+
+.book-middle {
+  left: 40px;
+  top: 10px;
+  transform: rotate(-2deg);
+  opacity: 0.9;
+}
+
+.book-front {
+  left: 80px;
+  top: -10px;
+  transform: rotate(4deg);
+  z-index: 3;
+}
+
+.book-front:hover,
+.book-middle:hover,
+.book-back:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+}
+
+
+.top-sellers-section {
+  margin-top: 1rem;
+}
+
+.top-sellers-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+
+.top-sellers-header h2 {
+  font-size: 1.6rem;
+}
+
+.top-genre-filter {
+  font-size: 0.9rem;
+}
+
+.filter-label {
+  margin-right: 0.5rem;
+}
+
+.genre-select {
+  padding: 0.35rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.9rem;
+}
+
+
+.top-sellers-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  align-items: stretch; 
+  
+}
+
+
+.top-sellers-grid .book-card-horizontal {
+  flex: 1 1 260px;
+}
+
+
+@media (max-width: 900px) {
+  .new-releases-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .new-releases-books {
+    align-self: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-page {
+    padding: 1.8rem 1rem 2.5rem;
+  }
+
+  .new-releases-text h1 {
+    font-size: 2rem;
+  }
+
+  .book-stack {
+    width: 150px;
+    height: 220px;
+  }
+
+  .top-sellers-grid .book-card-horizontal {
+    flex: 1 1 100%;
+  }
+}

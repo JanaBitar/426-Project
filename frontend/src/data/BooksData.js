@@ -1,0 +1,173 @@
+
+const books = [
+  {
+    id: 1,
+    code: "BigMagic",
+    title: "Big Magic",
+    author: "Elizabeth Gilbert",
+    price: 20.99,
+    category: "Self-Help",
+    description:
+      "A non-fiction book about living a creative life with more courage and less fear.",
+    image: "/images/BigMagic.jpg",
+    topSeller: true,
+  },
+  {
+    id: 2,
+    code: "Caraval",
+    title: "Caraval",
+    author: "Stephanie Garber",
+    price: 24.99,
+    category: "Fantasy",
+    description:
+      "A fantasy novel about two sisters who enter a magical game where nothing is quite what it seems.",
+    image: "/images/Caraval.jpg",
+    topSeller: true,
+  },
+  {
+    id: 3,
+    code: "CarveTheMark",
+    title: "Carve the Mark",
+    author: "Veronica Roth",
+    price: 19.99,
+    category: "Sci-Fi / Fantasy",
+    description:
+      "A science-fiction story set in a galaxy where everyone develops a unique currentgift.",
+    image: "/images/CarveTheMark.jpg",
+    topSeller: false,
+  },
+  {
+    id: 4,
+    code: "CWF",
+    title: "Conversations With Friends",
+    author: "Sally Rooney",
+    price: 14.99,
+    category: "Fiction",
+    description:
+      "A fiction title (CWF) – you can adjust the author and description later to match your exact book.",
+    image: "/images/ConvosWithFriends.jpg",
+    topSeller: false,
+  },
+  {
+    id: 5,
+    code: "HarryPotter1",
+    title: "Harry Potter and the Sorcerer’s Stone",
+    author: "J.K. Rowling",
+    price: 16.99,
+    category: "Fantasy",
+    description:
+      "The first Harry Potter book, where Harry discovers he is a wizard and enters Hogwarts.",
+    image: "/images/HarryPotterATSS.jpg",
+    topSeller: true,
+  },
+  {
+    id: 6,
+    code: "HarryPotter3",
+    title: "Harry Potter and the Prisoner of Azkaban",
+    author: "J.K. Rowling",
+    price: 17.99,
+    category: "Fantasy",
+    description:
+      "The third Harry Potter book, featuring Sirius Black’s escape and new secrets about Harry’s past.",
+    image: "/images/HarryPotterATPOA.jpg",
+    topSeller: true,
+  },
+  {
+    id: 7,
+    code: "LetThem",
+    title: "Let Them",
+    author: "Mel Robbins",
+    price: 12.99,
+    category: "Self-Help",
+    description:
+      "A contemporary romance / self-growth story. You can update this text to match your exact edition.",
+    image: "/images/LetThem.jpg",
+    topSeller: false,
+  },
+  {
+    id: 8,
+    code: "POTI",
+    title: "Physics of the Impossible",
+    author: "Michio Kaku",
+    price: 24.99,
+    category: "Non-Fiction / Science",
+    description:
+      "A self-help / inspirational title (POTI). Replace this with the precise details you prefer.",
+    image: "/images/PhysicsOTI.jpg",
+    topSeller: false,
+  },
+  {
+    id: 9,
+    code: "TGOTT",
+    title: "The Girl on the Train",
+    author: "Paula Hawkins",
+    price: 12.99,
+    category: "Thriller",
+    description:
+      "A psychological or mystery thriller (TGOTT). You can edit the name and summary later.",
+    image: "/images/TheGirlOTT.jpg",
+    topSeller: false,
+  },
+  {
+    id: 10,
+    code: "TheBookThief",
+    title: "The Book Thief",
+    author: "Markus Zusak",
+    price: 11.99,
+    category: "Historical Fiction",
+    description:
+      "A novel set in WWII Germany, narrated by Death and following a young girl who steals books.",
+    image: "/images/TheBookThief.jpg",
+    topSeller: true,
+  },
+  {
+    id: 11,
+    code: "TheBrain",
+    title: "The Brain: The Story of You",
+    author: "David Eagleman",
+    price: 14.99,
+    category: "Non-Fiction / Science",
+    description:
+      "A non-fiction book about the human brain and how it works. Adjust details to match your specific copy.",
+    image: "/images/TheBrain.jpg",
+    topSeller: false,
+  },
+  {
+    id: 12,
+    code: "TheHunger",
+    title: "The Hunger",
+    author: "Alma Katsu",
+    price: 11.99,
+    category: "Horror / Thriller",
+    description:
+      "A dystopian or fantasy adventure titled The Hunger. You can customise this to match your chosen book.",
+    image: "/images/TheHunger.jpg",
+    topSeller: true,
+  },
+  {
+    id: 13,
+    code: "TheReturn",
+    title: "The Return",
+    author: "Rachel Harrison",
+    price: 10.99,
+    category: "Horror / Thriller",
+    description:
+      "A horror / thriller novel about a woman who returns after disappearing and seems strangely different.",
+    image: "/images/TheReturn.jpg",
+    topSeller: true,
+  },
+  {
+    id: 14,
+    code: "WNIW",
+    title: "When No One Is Watching",
+    author: "Alyssa Cole",
+    price: 12.99,
+    category: "Thriller",
+    description:
+      "A thriller / suspense title (WNIW). You can update title, author and description however you like.",
+    image: "/images/WhenNoOIW.jpg",
+    topSeller: false,
+  },
+];
+
+export default books;
