@@ -5,7 +5,7 @@ const books = [
     code: "BigMagic",
     title: "Big Magic",
     author: "Elizabeth Gilbert",
-    price: 20.99,
+    price: 21,
     category: "Self-Help",
     description:
       "A non-fiction book about living a creative life with more courage and less fear.",
@@ -17,7 +17,7 @@ const books = [
     code: "Caraval",
     title: "Caraval",
     author: "Stephanie Garber",
-    price: 24.99,
+    price: 14,
     category: "Fantasy",
     description:
       "A fantasy novel about two sisters who enter a magical game where nothing is quite what it seems.",
@@ -29,7 +29,7 @@ const books = [
     code: "CarveTheMark",
     title: "Carve the Mark",
     author: "Veronica Roth",
-    price: 19.99,
+    price: 15,
     category: "Sci-Fi / Fantasy",
     description:
       "A science-fiction story set in a galaxy where everyone develops a unique currentgift.",
@@ -41,7 +41,7 @@ const books = [
     code: "CWF",
     title: "Conversations With Friends",
     author: "Sally Rooney",
-    price: 14.99,
+    price: 12,
     category: "Fiction",
     description:
       "A fiction title (CWF) – you can adjust the author and description later to match your exact book.",
@@ -53,7 +53,7 @@ const books = [
     code: "HarryPotter1",
     title: "Harry Potter and the Sorcerer’s Stone",
     author: "J.K. Rowling",
-    price: 16.99,
+    price: 13,
     category: "Fantasy",
     description:
       "The first Harry Potter book, where Harry discovers he is a wizard and enters Hogwarts.",
@@ -65,7 +65,7 @@ const books = [
     code: "HarryPotter3",
     title: "Harry Potter and the Prisoner of Azkaban",
     author: "J.K. Rowling",
-    price: 17.99,
+    price: 13,
     category: "Fantasy",
     description:
       "The third Harry Potter book, featuring Sirius Black’s escape and new secrets about Harry’s past.",
@@ -77,7 +77,7 @@ const books = [
     code: "LetThem",
     title: "Let Them",
     author: "Mel Robbins",
-    price: 12.99,
+    price: 11,
     category: "Self-Help",
     description:
       "A contemporary romance / self-growth story. You can update this text to match your exact edition.",
@@ -89,7 +89,7 @@ const books = [
     code: "POTI",
     title: "Physics of the Impossible",
     author: "Michio Kaku",
-    price: 24.99,
+    price: 11,
     category: "Non-Fiction / Science",
     description:
       "A self-help / inspirational title (POTI). Replace this with the precise details you prefer.",
@@ -101,7 +101,7 @@ const books = [
     code: "TGOTT",
     title: "The Girl on the Train",
     author: "Paula Hawkins",
-    price: 12.99,
+    price: 17,
     category: "Thriller",
     description:
       "A psychological or mystery thriller (TGOTT). You can edit the name and summary later.",
@@ -113,7 +113,7 @@ const books = [
     code: "TheBookThief",
     title: "The Book Thief",
     author: "Markus Zusak",
-    price: 11.99,
+    price: 14,
     category: "Historical Fiction",
     description:
       "A novel set in WWII Germany, narrated by Death and following a young girl who steals books.",
@@ -125,7 +125,7 @@ const books = [
     code: "TheBrain",
     title: "The Brain: The Story of You",
     author: "David Eagleman",
-    price: 14.99,
+    price: 14,
     category: "Non-Fiction / Science",
     description:
       "A non-fiction book about the human brain and how it works. Adjust details to match your specific copy.",
@@ -137,7 +137,7 @@ const books = [
     code: "TheHunger",
     title: "The Hunger",
     author: "Alma Katsu",
-    price: 11.99,
+    price: 12,
     category: "Horror / Thriller",
     description:
       "A dystopian or fantasy adventure titled The Hunger. You can customise this to match your chosen book.",
@@ -149,7 +149,7 @@ const books = [
     code: "TheReturn",
     title: "The Return",
     author: "Rachel Harrison",
-    price: 10.99,
+    price: 14,
     category: "Horror / Thriller",
     description:
       "A horror / thriller novel about a woman who returns after disappearing and seems strangely different.",
@@ -161,7 +161,7 @@ const books = [
     code: "WNIW",
     title: "When No One Is Watching",
     author: "Alyssa Cole",
-    price: 12.99,
+    price: 12,
     category: "Thriller",
     description:
       "A thriller / suspense title (WNIW). You can update title, author and description however you like.",

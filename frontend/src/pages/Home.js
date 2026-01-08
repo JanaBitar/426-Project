@@ -20,7 +20,7 @@ function Home({
         setLoading(true);
         setError("");
 
-        const res = await fetch("/api/books"); // uses proxy OR same-origin
+        const res = await fetch("/api/books"); 
         if (!res.ok) {
           throw new Error(`Failed to fetch books (HTTP ${res.status})`);
         }
@@ -40,10 +40,7 @@ function Home({
 
   // New releases: first 3 books from DB
   const newReleases = useMemo(() => books.slice(0, 3), [books]);
-
-  // Top sellers:
-  // If backend sends topSeller flag, use it.
-  // If none are marked, fallback to first 6 so the section isn't empty.
+  // Top sellers: books with topSeller flag or first 6 books
   const topSellers = useMemo(() => {
     const flagged = books.filter((b) => b.topSeller);
     return flagged.length > 0 ? flagged : books.slice(0, 6);

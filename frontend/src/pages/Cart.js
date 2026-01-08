@@ -14,7 +14,7 @@ function Cart({ cartItems, removeFromCart }) {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        customerId: 2, // keep 2 for now (simple + works)
+        customerId: 2, 
         total,
       }),
     });
